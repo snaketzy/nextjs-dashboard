@@ -34,7 +34,14 @@ export default function Page() {
                 width={ 1000 }
                 height={ 760 }
                 className="hidden md:block"
-                alt= "test"
+                alt= "desktop"
+            />
+            <Image
+                src= "/hero-mobile.png"
+                width={ 560 }
+                height={ 620 }
+                className='block md:hidden'
+                alt= "mobile"
             />
         </div>
       </div>
